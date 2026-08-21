@@ -1,0 +1,9 @@
+void show(long x) {
+    System.out.println("long");
+}
+
+void show(double x) {
+    System.out.println("double");
+}
+
+show(10);
