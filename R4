@@ -1,0 +1,25 @@
+class Student {
+
+    void display(String name) {
+        System.out.println("Name: " + name);
+    }
+
+    void display(String name, int rollNo) {
+        System.out.println("Name: " + name);
+        System.out.println("Roll Number: " + rollNo);
+    }
+
+    void display(String name, int rollNo, String department) {
+        System.out.println("Name: " + name);
+        System.out.println("Roll Number: " + rollNo);
+        System.out.println("Department: " + department);
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.display("Dharshika");
+        s.display("Dharshika", 101);
+        s.display("Dharshika", 101, "Information Technology");
+    }
+}
