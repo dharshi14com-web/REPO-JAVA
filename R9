@@ -1,0 +1,10 @@
+void show(int x) {
+    System.out.println("int");
+}
+
+void show(long x) {
+    System.out.println("long");
+}
+
+byte b = 10;
+show(b);
