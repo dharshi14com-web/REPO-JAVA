@@ -1,0 +1,22 @@
+class DataTypeOverloading {
+
+    void show(int a) {
+        System.out.println("Integer value: " + a);
+    }
+
+    void show(double a) {
+        System.out.println("Double value: " + a);
+    }
+
+    void show(String a) {
+        System.out.println("String value: " + a);
+    }
+
+    public static void main(String[] args) {
+        DataTypeOverloading obj = new DataTypeOverloading();
+
+        obj.show(10);
+        obj.show(10.5);
+        obj.show("Java");
+    }
+}
